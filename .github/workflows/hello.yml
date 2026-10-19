@@ -16,5 +16,5 @@ jobs:
 
       - name: Show repo info
         run: |
-          echo "Repository: ${{ github.repository }}"
-          echo "Run number: ${{ github.run_number }}"
+          echo "Repository: $GITHUB_REPOSITORY"
+          echo "Run number: $GITHUB_RUN_NUMBER"
